@@ -28,13 +28,13 @@
                             data-bs-toggle="dropdown">Property</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <router-link to="/propertylist">
-                                <a href="/propertylist" class="dropdown-item active">Property List</a>
+                                <a href="/propertylist" class="dropdown-item active">Danh Sách Tour</a>
                             </router-link>
                             <router-link to="/propertyType">
-                                <a href="/propertyType" class="dropdown-item">Property Type</a>
+                                <a href="/propertyType" class="dropdown-item">Loại Hình Du Lịch</a>
                             </router-link>
                             <router-link to="/propertyAgent">
-                                <a href="/propertyAgent" class="dropdown-item">Property Agent</a>
+                                <a href="/propertyAgent" class="dropdown-item">Chuyên Gia Du Lịch</a>
                             </router-link>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ export default {
                 .then((res) => {
                     if (res.data.status) {
                         toaster.success('Thông Báo<br>' + res.data.message);
-                        window.localStorage.removeItem('chia_khoa_16');
+                        window.localStorage.removeItem('key_login');
                         window.localStorage.removeItem('ten_kh');
                         this.auth = false;
                         this.$router.push('/');
@@ -171,7 +171,7 @@ export default {
                 .then((res) => {
                     if (res.data.status) {
                         toaster.success('Thông báo<br>' + res.data.message);
-                        window.localStorage.removeItem('chia_khoa_16');
+                        window.localStorage.removeItem('key_login');
                         window.localStorage.removeItem('ten_kh');
                         this.auth = false;
                         this.$router.push('/');

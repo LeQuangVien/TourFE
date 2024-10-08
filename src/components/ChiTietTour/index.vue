@@ -19,13 +19,12 @@
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <div class="product-thumb">
-                        <img v-bind:src="product_detail.hinh_anh" class="img-fluid product-image" alt="">
+                        <img style="width: 533px;" v-bind:src="product_detail.hinh_anh" class="img-fluid product-image"
+                            alt="">
                     </div>
                     <hr>
                     <div>
-                        <img class="img-fluid product-image"
-                            src="https://mangthuvien.net/uploads/post/tonyteo-150118030113-hoc-tu-vung-tieng-anh-du-lich-travel.jpg"
-                            alt="">
+                        <img class="img-fluid product-image" v-bind:src="product_detail.hinh_anh_2" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -68,9 +67,9 @@
                     <hr>
                     <div class="product-description">
                         <strong class="d-block mb-2">Detailed Description</strong>
-                        <p class="lead mb-2">Cáp treo, Tham quan vườn hoa, Hầm rượu</p>
-                        <p class="lead mb-2">Tham quan Vịnh Hạ Long, du thuyền ngắm cảnh, khám phá hang động</p>
-                        <p class="lead mb-2">Leo núi Fansipan, tham quan bản làng dân tộc, chụp ảnh ruộng bậc thang</p>
+                        <p class="lead mb-2">+ {{ product_detail.description_1 }}</p>
+                        <p class="lead mb-2">+ {{ product_detail.description_2 }}</p>
+                        <p class="lead mb-2">+ {{ product_detail.description_3 }}</p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ export default function (to, from, next) {
     axios
         .post('http://127.0.0.1:8000/api/khach-hang/check-login', {}, {
             headers: {
-                Authorization: 'Bearer ' + localStorage.getItem('chia_khoa_16')
+                Authorization: 'Bearer ' + localStorage.getItem('key_login')
             }
         })
         .then((res) => {

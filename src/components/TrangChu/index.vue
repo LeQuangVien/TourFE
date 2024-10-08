@@ -14,7 +14,8 @@
             </div>
             <div class="col-md-6 animated fadeIn">
                 <div class="owl-carousel-item">
-                    <img class="img-fluid" src="../../assets/images/imgdowload/carousel-1.jpg" alt="">
+                    <img class="img-fluid" style="height: 475px;"
+                        src="https://luxtour.com.vn/wp-content/uploads/2021/03/Du-lich-Viet-Nam-7.png" alt="">
                 </div>
 
             </div>
@@ -27,7 +28,8 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="../../assets/images/imgdowload/about.jpg">
+                        <img class="img-fluid w-100"
+                            src="https://statics.vinpearl.com/vietnam-where-to-go-1_1649584512_1650118878.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

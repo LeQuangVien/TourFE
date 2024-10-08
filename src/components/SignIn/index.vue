@@ -89,7 +89,7 @@ export default {
                 .then((res) => {
                     if (res.data.status == 1) {
                         toaster.success("Thông Báo <br>" + res.data.message);
-                        localStorage.setItem('chia_khoa_16', res.data.chia_khoa);
+                        localStorage.setItem('key_login', res.data.chia_khoa);
                         localStorage.setItem('ten_kh', res.data.ten_kh);
                         this.$router.push('/');
                     } else if (res.data.status == 2) {

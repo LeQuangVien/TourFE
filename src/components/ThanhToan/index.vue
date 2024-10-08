@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4" style="margin-top: -39px;">
-                    <h5>Nhập Thông Tin Để Chúng Tôi Liên Hệ*</h5>
+                    <h5>Nhập Thông Tin Để Chúng Tôi Request*</h5>
                     <hr>
                     <div>
                         <label for="">Họ Tên*</label>

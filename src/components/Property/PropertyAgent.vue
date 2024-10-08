@@ -2,7 +2,7 @@
     <div class="container-fluid header bg-white p-0">
         <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6 p-5 mt-lg-5">
-                <h1 class="display-5 animated fadeIn mb-4">Property Agent</h1>
+                <h1 class="display-5 animated fadeIn mb-4">Chuyên Gia Du Lịch</h1>
                 <nav aria-label="breadcrumb animated fadeIn">
                     <ol class="breadcrumb text-uppercase">
                         <li class="breadcrumb-item"><router-link to="/">
@@ -11,7 +11,7 @@
                         <li class="breadcrumb-item"><router-link to="/property">
                                 <a style="color: rgb(0, 185, 142);" href="/property">Property</a>
                             </router-link></li>
-                        <li class="breadcrumb-item text-body active" aria-current="page">Property Agent</li>
+                        <li class="breadcrumb-item text-body active" aria-current="page">Chuyên Gia Du Lịch</li>
                     </ol>
                 </nav>
             </div>
@@ -24,9 +24,9 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="mb-3">Property Agents</h1>
-                <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod
-                    sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                <h1 class="mb-3 text-danger">Chuyên Gia Du Lịch</h1>
+                <p>những chuyên gia hoặc công ty cung cấp dịch vụ liên quan đến việc tổ chức và đặt chỗ cho các chuyến
+                    đi, bao gồm cả lưu trú, vé máy bay, tour du lịch và các hoạt động giải trí.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

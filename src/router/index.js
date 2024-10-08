@@ -46,7 +46,13 @@ const routes = [
         component: () => import('../components/ChiTietTour/index.vue'),
         props: true
     },
-    // logiin
+    {
+        path: '/profile',
+        component: () => import('../components/KhachHang/profile.vue'),
+        beforeEnter: kiemTraKhachHang
+    },
+
+    // login
     {
         path: '/login',
         component: () => import('../components/SignIn/index.vue'),
@@ -57,6 +63,12 @@ const routes = [
         path: '/register',
         component: () => import('../components/Register/index.vue'),
         meta: { layout: 'auth' }
+    },
+
+    {
+        path: '/kich-hoat-tai-khoan/:id_can_kich_hoat',
+        component: () => import('../components/KichHoatTaiKhoan/index.vue'),
+        props: true
     },
 
     // gio hang

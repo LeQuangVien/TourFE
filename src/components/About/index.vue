@@ -19,7 +19,8 @@
                 </nav>
             </div>
             <div class="col-md-6 animated fadeIn">
-                <img class="img-fluid" src="../../assets/images/imgdowload/about.jpg" alt="">
+                <img class="img-fluid" style="height: 475px;"
+                    src="https://checkintravel.vn/blog/uploads/2021/04/hanh-trinh-viet-nam.jpg" alt="">
             </div>
         </div>
     </div>
@@ -29,7 +30,8 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="../../assets/images/imgdowload/carousel-2.jpg">
+                        <img class="img-fluid w-100"
+                            src="https://cdn3.ivivu.com/2022/09/T%E1%BB%95ng-quan-du-l%E1%BB%8Bch-V%C5%A9ng-T%C3%A0u-ivivu.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

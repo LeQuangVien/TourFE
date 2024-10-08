@@ -5,7 +5,7 @@ const apiUrl = 'http://127.0.0.1:8000/api/';
 
 export default {
     getHeader() {
-        let token = window.localStorage.getItem('chia_khoa_16');
+        let token = window.localStorage.getItem('key_login');
         if (token == null) {
             return {}
         }
